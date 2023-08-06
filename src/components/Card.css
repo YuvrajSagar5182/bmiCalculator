@@ -1,0 +1,17 @@
+/* Card.css */
+
+.card {
+    background-color: #ffffff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 1rem;
+    position: relative;
+    z-index: 1; /* You can adjust the z-index as needed */
+    width: 35rem;
+  }
+  
+  /* If you want to add some margin or spacing around the card */
+  .card.margin {
+    margin: 16px;
+  }
+  

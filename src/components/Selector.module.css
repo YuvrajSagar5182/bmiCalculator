@@ -1,0 +1,45 @@
+/* Styling for the Selector component */
+.selector {
+    margin-top: 20px; /* Adjust the margin as needed */
+    font-size: 1.2rem;
+  }
+  
+  .selector label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 8px;
+  }
+  
+  .selector select {
+    width: 100%;
+    font-size: 1rem;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #fff;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s, box-shadow 0.3s;
+  }
+  
+  .selector select:focus {
+    border-color: #333;
+    box-shadow: 0 0 8px #333;
+  }
+  
+  /* Align the label and select elements */
+  .selector label,
+  .selector select {
+    display: block;
+  }
+  
+  /* Center the Selector component */
+  .selector.center {
+    text-align: center;
+  }
+  
+  /* Add space below the Selector component */
+  .selector.margin-bottom {
+    margin-bottom: 24px;
+  }
+  
